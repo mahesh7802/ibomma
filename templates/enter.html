@@ -1,0 +1,83 @@
+{% extends 'dummy.html' %}
+
+
+    {% block title %}
+    <title>enter</title>
+    <style>
+        
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        body{
+            background-color: #000b0b;
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        
+            
+        
+        div{
+            width: 500px;
+            height: 300px;
+            text-align: center;
+            border: 2px solid hsla(64, 100%, 3%, 0.878);
+            margin-right: 30px; 
+            background-color: hsl(182, 95%, 7%);
+            justify-content: center;
+            display: grid;
+            align-items: center;
+            gap: 5px;
+            border-radius: 25px;
+
+        }
+        h1{
+            color: #39eb39;
+        }
+        h5{
+            color: white;
+        }
+        p{
+            color: whitesmoke;
+        }
+        button{
+            padding: 15px;
+            margin: 10px;
+            width: 150px;
+            background-color: hsla(84, 87%, 52%, 0.686);
+            color: white;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+    </style>
+    
+
+    {% endblock %}
+</head>
+<body>
+    
+
+    {% block body_block %}
+    
+    <div id="mahi">
+        <h1>iBOMMA</h1>
+        <h5>100 % Telugu Entertainment</h5>
+    
+        <a href="http://127.0.0.1:8000/main/"><button type="ENTER">ENTER</button></a>
+        <p>Watch iBOMMA.COM Telugu movies online in HD quality.
+            Exclusively designed for smartphones, tablets, PC's.</p>
+    </div>
+
+
+
+
+
+
+    {% endblock %}
+</body>
+</html>
